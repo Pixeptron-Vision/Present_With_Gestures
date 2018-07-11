@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<appProperties xmlns="http://schemas.mathworks.com/matlab/app/2012/appProperties" signature="68627D1B9037A53C2DB8BE037AF444123E08D11D">
+
+  <entryPoint>Automatic_PPT</entryPoint>
+
+  <name>Present With Gestures</name>
+
+  <version>1.0</version>
+
+  <createdByMATLABRelease>(R2013a)</createdByMATLABRelease>
+
+  <GUID>4714343e-f23f-441d-8c38-be4e8c527042</GUID>
+
+  <author>
+    <name>V. Sri Chakra Kumar</name>
+    <contact>srichakra89@gmail.com</contact>
+    <organization></organization>
+  </author>
+
+  <supportedPlatforms/>
+
+  <requiredProducts>
+    <product identifier="-1" name="MATLAB" version="8.1"/>
+    <product identifier="-1" name="Image Processing Toolbox" version="8.2"/>
+    <product identifier="-1" name="Image Acquisition Toolbox" version="4.5"/>
+  </requiredProducts>
+
+  <numFiles>11</numFiles>
+
+  <created>2016-08-02T01:00:39Z</created>
+
+  <appEntries>
+    <appFile>/Automatic_PPT.m</appFile>
+    <appFile>/Automatic_PPT.fig</appFile>
+    <appFile>/Net_10f_hl_10_12.mat</appFile>
+    <appFile>/Net_10f_hl_6b1.mat</appFile>
+    <appFile>/BiggestBlob.m</appFile>
+    <appFile>/Count_SC.m</appFile>
+    <appFile>/maxI.m</appFile>
+    <appFile>/SemiCircleC.m</appFile>
+    <appFile>/size1.m</appFile>
+    <appFile>/skin_ycbcr.m</appFile>
+    <appFile>/skin_yuv.m</appFile>
+  </appEntries>
+
+</appProperties>
