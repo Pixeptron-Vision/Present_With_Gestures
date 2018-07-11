@@ -353,18 +353,18 @@ start(vid);
              ratio=majoraxis.MajorAxisLength/minoraxis.MinorAxisLength;
              result=Net_7features([area.Area,perimeter.Perimeter,extent.Extent,solidity.Solidity,majoraxis.MajorAxisLength,minoraxis.MinorAxisLength,orientation.Orientation,boundingbox.BoundingBox(3),boundingbox.BoundingBox(4),ratio]');
              if result > 0                
-               stats = regionprops(bob,'Centroid');
-               centers = stats.Centroid;
-               diameters = mean([majoraxis.MajorAxisLength minoraxis.MinorAxisLength],2);
-               radii = diameters/2;
-               f=Count_SC(bob,centers(1),centers(2),radii);                  
-               set(handles.text1,'String',strcat('F:',num2str(f),'::',num2str(result),';Val:',num2str(value)));                                         
-               if f ==1 && true(handles.h)
-                    handles.h.SlideShowWindows.Item(1).View.Next;  
-                    beep
-                    pause on
-                    pause(2)
-               end
+                   stats = regionprops(bob,'Centroid');
+                   centers = stats.Centroid;
+                   diameters = mean([majoraxis.MajorAxisLength minoraxis.MinorAxisLength],2);
+                   radii = diameters/2;
+                   f=Count_SC(bob,centers(1),centers(2),radii);                  
+                   set(handles.text1,'String',strcat('F:',num2str(f),'::',num2str(result),';Val:',num2str(value)));                                         
+                   if f ==1 && true(handles.h)
+                        handles.h.SlideShowWindows.Item(1).View.Next;  
+                        beep
+                        pause on
+                        pause(2)
+                   end
              elseif result < 0                  
                   stats = regionprops(bob,'Centroid');
                   centers = stats.Centroid;
@@ -379,8 +379,11 @@ start(vid);
                     pause(2)
                   end
              end
-          end              
+          end
+              
     end
+
+
 
 % --- Executes on button press in pushbutton10.
 function pushbutton10_Callback(hObject, eventdata, handles)

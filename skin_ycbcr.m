@@ -1,6 +1,7 @@
 function [Io] = skin_ycbcr(Ip,min,max)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%Color segmentation in YCbCr color image
+% if pixel value >= min && pixel value <= max then pixel value = 1 
+% else pixel value = 0
 Ip=rgb2ycbcr(Ip);
 Ip=Ip(:,:,3);
 [r,c]=size(Ip);Io=zeros(r,c);
@@ -13,7 +14,5 @@ for i=1:r
         end
     end
 end
-%imtool(Ip),imhist(Ip)
-%CrCR=im2bw(CrCR,130/255);
 end
 

@@ -1,6 +1,6 @@
 function [f] = SemiCircleC(I,X,Y,r,a,b,c)
-% This function counts the black-white transitions along perimeter of a 
-% semi circle drawn at centre (X+b,Y+a), radius r*c 
+% This function counts the black-white transitions along  
+%
 f=0;r=r*c;      
         t=0:-0.01:-pi; %for semi circle
         y= Y+a+ r*sin(t);%for semi circle
