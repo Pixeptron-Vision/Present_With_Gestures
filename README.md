@@ -1,4 +1,4 @@
-#Present_With_Gestures
+#Present_With_Gestures => 
 This MATLAB application (GUI made using MATLAB Guide) can open and begin the slideshow of MS PowerPoint file. Further, slide navigation (previous/next) can be controlled by hand gesture captured in the camera feed. 
 
 Command to go to Next slide: Hand gesture, i.e, palm (left or right hand) with a single finger (anyone) open and rest closed.
